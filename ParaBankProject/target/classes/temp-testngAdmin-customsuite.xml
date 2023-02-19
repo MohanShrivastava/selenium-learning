@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression running">
+  <test name="SeleniumLearning">
+    <groups>
+      <run>
+        <include name="process1"/>
+        <exclude name="process2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGPackage.TestNGConcept.AdminPage"/>
+    </classes>
+  </test> <!-- SeleniumLearning -->
+</suite> <!-- Default Suite -->
+
+
+<!-- learnt About include,exclude,Groups,run -->

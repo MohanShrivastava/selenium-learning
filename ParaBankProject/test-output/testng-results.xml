@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering username:admin]]>
+    </line>
+    <line>
+      <![CDATA[Entering password:my teeth]]>
+    </line>
+    <line>
+      <![CDATA[Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Retest Report]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="10774" started-at="2022-12-07T16:42:00Z" finished-at="2022-12-07T16:42:10Z">
+    <groups>
+    </groups>
+    <test name="SeleniumLearning" duration-ms="10774" started-at="2022-12-07T16:42:00Z" finished-at="2022-12-07T16:42:10Z">
+      <class name="TestNGPackage.TestNGTest1">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:TestNGPackage.TestNGTest1@5649fd9b]" name="beforeSuit" is-config="true" duration-ms="25" started-at="2022-12-07T16:42:00Z" finished-at="2022-12-07T16:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGPackage.TestNGTest1@5649fd9b]" name="beforeTest" is-config="true" duration-ms="4877" started-at="2022-12-07T16:42:00Z" finished-at="2022-12-07T16:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginToParaBank()[pri:0, instance:TestNGPackage.TestNGTest1@5649fd9b]" name="loginToParaBank" duration-ms="5870" started-at="2022-12-07T16:42:05Z" finished-at="2022-12-07T16:42:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering username:admin]]>
+            </line>
+            <line>
+              <![CDATA[Entering password:my teeth]]>
+            </line>
+            <line>
+              <![CDATA[Clicking login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToParaBank -->
+        <test-method status="PASS" signature="reTest1()[pri:0, instance:TestNGPackage.TestNGTest1@5649fd9b]" name="reTest1" duration-ms="0" started-at="2022-12-07T16:42:10Z" finished-at="2022-12-07T16:42:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Retest Report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reTest1 -->
+      </class> <!-- TestNGPackage.TestNGTest1 -->
+    </test> <!-- SeleniumLearning -->
+  </suite> <!-- Default Suite -->
+</testng-results>

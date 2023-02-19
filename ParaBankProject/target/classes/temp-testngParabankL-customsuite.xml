@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Regression ">
+  <test name="ParaBank Module">
+    <classes>
+      <class name="TestNGPackage.TestNGConcept.ParaBank">
+        <methods>
+          <exclude name="enterPassword"/>
+          <include name="enterUsername"/>
+        </methods>
+      </class> <!-- TestNGPackage.TestNGConcept.ParaBank -->
+    </classes>
+  </test> <!-- SeleniumLearning -->
+</suite> <!-- Default Suite -->
